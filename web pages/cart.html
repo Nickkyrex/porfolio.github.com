@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Cart</title>
+		<link rel="stylesheet" href="cartstyle.css">
+</head>
+<body style="background-color: lightgray;">
+	<div class="header">
+		<div class="logo"><img src="C:\Users\HP\OneDrive\Documents\nicky\images\organic-store-logo5.svg"></div>
+		<div class="nav">
+			<ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="products.html">All Products</a></li>
+                    <li><a href="aboutlandingpage.html">About</a></li>
+                    <li><a href="contactpage.html">Contact</a></li>
+                    <li>Account
+                        <div class="dropdown">
+                            <button><select class="cart" onclick="location=this.value" style="border: none;"></select></button>
+                            <div class="content">
+                                <a href="account.html">Account</a>
+                                <a href="cart.html">Cart</a>
+                                <a href="scart.html">Product</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="allcart.html"><img src="C:\Users\HP\OneDrive\Documents\nicky\images\icon5.png" style="width: 40px; height: 40px;"></a></li>
+                </ul>
+				</div>
+	</div>
+    <div class="real">
+        <h2>Cart</h2>
+        <table class="table-one" style="border-collapse: collapse; text-align: left;">
+            <tr>
+                <th></th>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+
+            <tr>
+                <td><p class="x">x</p><img src="images/cashew butter.jpeg" style="width: 100px; height: 100px;"></td>
+                <td><p class="u">Cashew Butter</p></td>
+                <td>€25.00</td>
+                <td><input type="number" value="1" style="width: 50px; height: 25px;"></td>
+                <td>€25.00</td>
+            </tr>
+
+            <tr>
+                <td><input type="text" placeholder="COUPON CODE"></td>
+                <td><button><p class="apply"><a href="">APPLY COUPON</a></button></td>
+                <td></td>
+                <td></td>
+                <td><input type="submit" value="UPDATE CART"></td>
+            </tr>
+        </table>
+
+        <div class="table">
+            <table class="table-two" style="border-collapse: collapse; text-align: left;">
+                <tr>
+                    <th>Cart Total</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>€25.00</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>€25.00</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button><p class="apply"><a href="">PROCEED TO CHECKOUT</a></button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <footer>
+		<div class="logo"><img src="C:\Users\HP\OneDrive\Documents\nicky\images\organic-store-logo6.png" style="width: 130px; height: 50px;"></div>
+		<br>
+		<div class="texts">
+			<h2>Download Our Mobile App</h2>
+			<p class="tb">Molestiae reiciendis neque arcu Tempor reprehenderit accusantium quibusdam iste accusen.</p>
+			<p class="bf">Click edit button to change this text, Lorem ipsum dolor sit amet</p>
+			<hr>
+		    <p class="bg">copyright &copy 2022 | Organic Store</p>
+            <div class="fish"><img src="C:\Users\HP\OneDrive\Documents\nicky\images\fishs.png" style="width: 80px; height: 20px;"></div>
+		</div>
+		<div class="icon"><img src="C:\Users\HP\OneDrive\Documents\nicky\images\download.png" style="width: 300px;"></div>
+	</footer>
+    
+
+</body>
+</html>

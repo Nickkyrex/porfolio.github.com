@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+	/* height: 100px; */
+    display: inline-flex;
+	background-color: whitesmoke;
+    width: 1250px;
+}
+
+.header .logo{
+    margin-top: -26px;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'poppins';
+    font-weight: 30px;
+    margin: -7px;
+}
+.nav li{
+    font-family: Tasman Semi Bold;
+	list-style: none;
+	margin-left: 60px;
+    display: inline-flex;
+}
+.nav ul{
+	margin-top: 60px;
+    margin-left: 400px;
+}
+
+.cart{
+    width: 20px;
+    border: none;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.image{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.dropdown{
+    position: relative;
+    top: 1px;
+    left: 1px;
+    display: inline-block;
+}
+
+.dropdown button{
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 80%);
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.769);
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+.dropdown:hover button{
+    background-color: hsl(0, 0%, 70%);
+}
+
+.dropdown a:hover{
+    background-color: hsl(0, 0%, 90%);
+}
+
+.ten{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    gap: 45px;
+    box-shadow: 4px 4px 5px 5px lightgrey;
+    background-color: white;
+    height: 200px;
+    position: relative;
+    top: -20px;
+}
+
+.tent{
+    border: 1px solid lightgrey;
+    text-align: center;
+    width: 350px;
+    height: 150px;
+    position: relative;
+    top: 25px;
+    left: 35px;
+}
+
+.tent p{
+    position: relative;
+    top: 50px;
+}
+
+.tent img{
+    position: relative;
+    top: 30px;
+}
+
+.imag{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    gap: 25px;
+    height: 100px;
+    width: 700px;
+    margin-top: 40px;
+    margin-left: -20px;
+}
+
+.tex{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    text-align: left;
+    /* background-color: white; */
+    width: 550px;
+    height: 50px;
+    font-size: 35px;
+    margin-left: 40px;
+}
+
+.tex img{
+    position: relative;
+    left: 530px;
+    top: -20px;
+}
+
+.text-two{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    gap: 25px;
+    height: 100px;
+    width: 700px;
+    position: relative;
+    left: 630px;
+    top: -130px;
+}
+
+.tex1{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    text-align: left;
+    background-color: white;
+    width: 550px;
+    height: 50px;
+    font-size: 35px;
+    margin-left: 40px;
+}
+
+.tex1 img{
+    position: relative;
+    left: 510px;
+    top: -20px;
+}
+
+h6{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+footer{
+    background-color:rgb(1, 20, 34);
+    margin-top: 100px;
+    height: 400px;
+    width: 1250px;
+    display: inline-flex;
+    color: white;
+}
+
+.texts{
+    font-size: 16px;
+    margin-left: -180px;
+    position:relative;
+    bottom: -160px;
+}
+
+.texts h2{
+    margin-left: 900px;
+    position:relative;
+    top: -110px;
+    left: 76px;
+}
+
+.tb{
+    margin-left: 950px;
+    position:relative;
+    bottom: 100px;
+    left: 5px;
+    text-align: right;
+    width: 300px;
+}
+
+.bf{
+    text-align: left;
+    position:relative;
+    top: -120px; 
+    width: 350px;
+    left: 90px;
+}
+
+.logo{
+    margin-top: 10px;
+    position:relative;
+    top: 35px;
+    right: -50px;
+}
+
+.icon{
+    margin-top: 10px;
+    position:relative;
+    bottom: -200px;
+    left: -295px; 
+    width: 20px;
+}
+
+hr{
+    width: 1245px;
+    position: relative;
+    bottom: -40px;
+    right: -53px;
+}
+
+.bg{
+    text-align: left;
+    font-size: 18px;
+    position:relative;
+    top: 50px; 
+    width: 350px;
+    left: 90px;
+}
+
+.imageh{
+    margin-top: -220px;
+    margin-left: 170px;
+}
+
+.p{
+    margin-left: -10px;
+    position:relative;
+    top: -15px;  
+}
+
+.yes{
+    position: relative;
+    top: 500px;
+}
+
+.fish{
+    position: relative;
+    top: 30px;
+    left: 1175px;
+}
