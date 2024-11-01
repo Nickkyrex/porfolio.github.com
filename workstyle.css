@@ -1,0 +1,468 @@
+.header{
+    display: inline-flex;
+    margin-left: 100px;
+}
+
+.logo h5{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 33px;
+    color: white;
+
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.nav li{
+    list-style: none;
+    margin-left: 30px;
+}
+
+.nav ul{
+    opacity: 0.6;
+    float: inline-end;
+    margin-left: 400px;
+    /* margin-top: -48px; */
+}
+
+.nav ul li{
+    display: inline-flex;
+    padding: 15px;
+}
+
+.new{
+    display: flex;
+    /* border: 1px solid lightgrey; */
+    background-color: rgb(36, 36, 38);
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 450px;
+    border-radius: 50px;
+    height: 40px;
+}
+.new p{
+    color: white;
+    margin-left: 20px;
+    margin-top: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.new button{
+    border-radius: 40px;
+    height: 35px;
+    width: 70px;
+    margin-top: 3px;
+    margin-left: 10px;
+    border: none;
+    background-color: rgb(9, 237, 146);
+}
+
+.new a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.car{
+    margin-left: 100px;
+    width: 400px;
+    height: 200px;
+}
+.car h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 120px;
+}
+.car h1 *{
+    margin: 0;
+    padding: 0;
+}
+.car p{
+    opacity: 0.5;
+    color: white;
+    margin-top: -60px;
+    width: 450px;
+}
+
+.yoo img{
+    margin-top: -630px;
+    margin-left: 433px;
+}
+
+.pre{
+    display: flex;
+    margin-top: 200px;
+    margin-left: 100px;
+    /* width: 300px;
+    height: 40px; */
+
+}
+
+.get button{
+    border: none;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(9, 237, 146);
+    border-radius: 5px;
+}
+.get a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.view button{
+    width: 120px;
+    height: 40px;
+    margin-left: 20px;
+    border: none;
+    background-color: rgb(36, 36, 38);
+    border-radius: 5px;
+}
+.view a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.treads{
+    display: flex;
+    margin-left: 100px;
+    margin-top: -100px;
+    gap: 35px;
+}
+
+.yoga img{
+    
+    width: 320px;
+    display: flex;
+}
+.yoga h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 40px;
+    margin-top: -30px;
+    margin-left: 20px;
+    width: 100px;
+}
+.yoga p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+    top: 10px;
+    margin-left: 20px;
+    font-size: 11px;
+    opacity: 0.5;
+}
+.yoga h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 290px;
+    margin-top: -90px;
+}
+.yoga a{
+    background-color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+.run{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+    gap: 35px;
+}
+
+.lift img{
+    
+    width: 320px;
+    display: flex;
+}
+.lift h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 40px;
+    margin-top: -30px;
+    margin-left: 20px;
+    width: 100px;
+}
+.lift p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+    top: 10px;
+    margin-left: 20px;
+    font-size: 11px;
+    opacity: 0.5;
+}
+.lift h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 290px;
+    margin-top: -90px;
+}
+.lift a{
+    background-color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+.leo{
+    background-color: rgb(36, 36, 38);
+    width: 850px;
+    height: 450px;
+    margin-left: 350px;
+    margin-top: 100px;
+}
+.leo p{
+    opacity: 0.6;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+    left: 265px;
+    top: 60px;
+    width: 450px;
+    line-height: 30px;
+}
+
+.leo button{
+    border: none;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(9, 237, 146);
+    border-radius: 5px;
+    position: relative;
+    top: -30px;
+    left: 275px;
+}
+.leo a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.leo h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 150px;
+    font-size: 80px;
+    position: relative;
+    left: -250px;
+    top: -320px;
+    line-height: 75px;
+}
+.leo img{
+    position: relative;
+    top: 140px;
+    left: -420px;
+}
+
+.sam{
+    display: flex;
+    position: relative;
+    top: -100px;
+    left: 20px;
+}
+.sam h4, p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.sam p{
+    opacity: 0.5;
+    margin-top: -20px;
+    font-size: 14px;
+}
+
+.kar p{
+    margin-left: -2px;
+}
+.sama p{
+    margin-left: -2px;
+}
+
+.sam .sama{
+    position: relative;
+    top: 100px;
+    left: 60px;
+}
+
+.sam .kar{
+    position: relative;
+    top: 370px;
+    left: 60px;
+}
+.sam .jon{
+    position: relative;
+    left: 60px;
+}
+.sam .jon h4, p{
+    margin-left: 10px;
+}
+
+.call{
+    position: relative;
+    top: 300px;
+    margin-left: 100px;
+    height: 200px;
+}
+
+.out{
+    border-bottom: 1px solid lightgrey;
+    width: 1030px;
+    text-align: center;
+}
+.out h5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: left;
+    font-size: 25px;
+    margin-left: 450px;
+    margin-top: -30px;
+    opacity: 0.6;
+}
+
+.out h6{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    position: relative;
+    top: 20px;
+    opacity: 0.4;
+
+}
+.out p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 450px;
+    margin-top: -55px;
+    opacity: 0.4;
+}
+.out img{
+    opacity: 0.6;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: 500px;
+    top: -40px;
+}
+
+
+.out1 h5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: left;
+    font-size: 25px;
+    margin-left: 450px;
+    margin-top: -60px;
+    opacity: 0.6;
+}
+
+.out1 h6{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    position: relative;
+    top: 20px;
+    opacity: 0.4;
+
+}
+.out1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 450px;
+    margin-top: -55px;
+    opacity: 0.4;
+}
+.out1 img{
+    opacity: 0.6;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: 1010px;
+    top: -40px;
+}
+
+.card{
+    margin-left: 900px;
+    margin-top: -310px;
+    
+
+}
+.card .cards{
+    color: yellow;
+    border: none;
+    width: 120px;
+    height: 60px;
+    font-size: 20px;
+    margin-top: -2px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(36, 36, 38);
+    border-radius: 5px;
+}
+.card .cardss{
+    color: red;
+    border: none;
+    width: 120px;
+    height: 60px;
+    font-size: 20px;
+    margin-top: -2px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(36, 36, 38);
+    border-radius: 5px;
+}
+.cardss h2{
+    margin-left: 18px;
+    margin-top: 5p2;
+}
+
+.cards h2{
+    margin-left: 18px;
+    margin-top: 5p2;
+}
+.card p{
+    opacity: 0.7;
+    font-size: 12px;
+    margin-top: -20px;
+    margin-left: 22px;
+}
+.card h2{
+    position: relative;
+    top: 5px;
+}
+
+.pop{
+    position: relative;
+    top: -90px;
+}
+.pop p{
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.7;
+    color: white;
+    font-size: 12px;
+    margin-left: 990px;
+    position: relative;
+    top: -20px;
+}
+.pop h5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+    position: relative;
+    top: 20px;
+}
